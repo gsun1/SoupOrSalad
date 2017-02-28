@@ -5,7 +5,9 @@ from random import shuffle
 import numpy as np
 import pickle
 
+
 photos = []
+# change the directory here to the path of the folder for the images you want to classify
 cereal_dir = 'arielle/'
 cereal_photos = [f for f in listdir(cereal_dir)]
 
